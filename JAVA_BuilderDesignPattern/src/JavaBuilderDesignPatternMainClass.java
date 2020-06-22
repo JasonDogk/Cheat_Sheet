@@ -9,8 +9,14 @@ public class JavaBuilderDesignPatternMainClass {
 
 		User user1 = new User.UserBuilder("John", "Smith").age(39).phone("+306972463857")
 				.address("56 Burmingham Street").build();
+		
+		User user2 = new User.UserBuilder("Lara", "Croft").build();
+		
+		User user3 = new User.UserBuilder("Tim", "Barton").age(45).build();
 
 		System.out.println(user1);
+		System.out.println(user2);
+		System.out.println(user3);
 
 	}
 
