@@ -1,0 +1,1 @@
+This is a project containing various java design patterns and exrcises.
